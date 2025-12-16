@@ -14,6 +14,9 @@ new_data={"Name":"Priyank","Age":29,"City":"Ayodhya"}
 df.loc[len(df.index)]=new_data
 
 
+#add new row to the data 
+new_data_2={"Name":"Manish","Age":21,"City":"Lucknow"}
+df.loc[len(df.index)]=new_data_2
 
 #file path
 direc_path='data'
