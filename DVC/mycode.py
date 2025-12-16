@@ -9,6 +9,9 @@ data={
 
 df=pd.DataFrame(data)
 
+#add new row to the data 
+new_data={"Name":"Priyank","Age":29,"City":"Ayodhya"}
+df.loc[len(df.index)]=new_data
 
 
 
